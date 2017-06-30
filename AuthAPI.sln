@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI", "AuthAPI\AuthAPI.csproj", "{CFFE7D66-2698-4410-8DB4-C021E4B58102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI.Services", "AuthAPI.Services\AuthAPI.Services.csproj", "{106FED2F-5833-4241-850B-627B4FD96D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI.Helpers", "AuthAPI.Helpers\AuthAPI.Helpers.csproj", "{99FD62A5-61CB-4F60-A74C-EF188B1FB9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI.Data", "AuthAPI.Data\AuthAPI.Data.csproj", "{B544D6C8-A06E-4E86-9CFD-4B56BA0D3F93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C8DCA38-FA9B-493D-BF7B-BA8110388F10}"
+	ProjectSection(SolutionItems) = preProject
+		api_secret.jwk = api_secret.jwk
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthAPI", "UserAuthAPI\UserAuthAPI.csproj", "{BC4158D9-0FC4-4987-834F-3FE6AD316DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthAPI.UI", "UserAuthAPI.UI\UserAuthAPI.UI.csproj", "{0396862C-1784-42FD-A918-7CCEFBBDA594}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "com.auth.api.web", "com.auth.api.web\com.auth.api.web.xproj", "{0DE1E5BE-AE71-4AE6-B74B-FE35B0138306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFE7D66-2698-4410-8DB4-C021E4B58102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFE7D66-2698-4410-8DB4-C021E4B58102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFE7D66-2698-4410-8DB4-C021E4B58102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFE7D66-2698-4410-8DB4-C021E4B58102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106FED2F-5833-4241-850B-627B4FD96D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106FED2F-5833-4241-850B-627B4FD96D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106FED2F-5833-4241-850B-627B4FD96D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106FED2F-5833-4241-850B-627B4FD96D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FD62A5-61CB-4F60-A74C-EF188B1FB9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FD62A5-61CB-4F60-A74C-EF188B1FB9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FD62A5-61CB-4F60-A74C-EF188B1FB9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FD62A5-61CB-4F60-A74C-EF188B1FB9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B544D6C8-A06E-4E86-9CFD-4B56BA0D3F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B544D6C8-A06E-4E86-9CFD-4B56BA0D3F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B544D6C8-A06E-4E86-9CFD-4B56BA0D3F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B544D6C8-A06E-4E86-9CFD-4B56BA0D3F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4158D9-0FC4-4987-834F-3FE6AD316DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4158D9-0FC4-4987-834F-3FE6AD316DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4158D9-0FC4-4987-834F-3FE6AD316DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4158D9-0FC4-4987-834F-3FE6AD316DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0396862C-1784-42FD-A918-7CCEFBBDA594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0396862C-1784-42FD-A918-7CCEFBBDA594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0396862C-1784-42FD-A918-7CCEFBBDA594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0396862C-1784-42FD-A918-7CCEFBBDA594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE1E5BE-AE71-4AE6-B74B-FE35B0138306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE1E5BE-AE71-4AE6-B74B-FE35B0138306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE1E5BE-AE71-4AE6-B74B-FE35B0138306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE1E5BE-AE71-4AE6-B74B-FE35B0138306}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

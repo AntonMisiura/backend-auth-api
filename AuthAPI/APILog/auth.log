@@ -1,0 +1,9 @@
+﻿2017-06-22 13:31:29.6105|INFO|AuthAPI.Services.AuthProvider|Device signature payload c2c5f4003f5ff845c5790c382c4329c57647813a9afe05d018bd98ecb570f6ae
+2017-06-22 13:31:34.7486|INFO|DeviceAuth.Auth|[Device_ID, EF5ON3EOVH9X37].(Response Code).200
+2017-06-22 13:33:33.2270|ERROR|AuthAPI.Services.AuthProvider|StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Func`1 multiplexerFactory, TextWriter log)
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(String configuration, TextWriter log)
+   at AuthAPI.Data.Providers.RedisProvider..ctor() in C:\Users\maria\Documents\Visual Studio 2015\Projects\backend-auth-service\AuthAPI.Data\Providers\RedisProvider.cs:line 20
+   at AuthAPI.Data.Repositories.RedisRepository..ctor()
+   at AuthAPI.Services.AuthProvider.GetJWTToken(DeviceKey device) in C:\Users\maria\Documents\Visual Studio 2015\Projects\backend-auth-service\AuthAPI.Services\AuthProvider.cs:line 69
+2017-06-22 13:33:40.0353|INFO|DeviceAuth.Auth|[Device_ID, EF5ON3EOVH9X37][packet, Random payload: a37e875e2959e7940a3257cb14bafc0173d7547c5ab7845adae818e433c82d8a Server signature: d32d7c713140323e33e73fce9ca75f68c14a6ccf3a161f5492086ca24153c0c8 Device sinature: c2c5f4003f5ff845c5790c382c4329c57647813a9afe05d018bd98ecb570f6ae].(Response Code).200
